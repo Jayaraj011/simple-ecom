@@ -7,7 +7,7 @@ import cart5 from '../assets/costa-del-mar-wingman-sunglasses-in-gold-metal.jpg'
 import cart6 from '../assets/tv.jpg'
 import{Link} from 'react-router-dom'
 import Footer from './Footer'
-import Banner from './banner'
+import Banner from './Banner'
  const Home = ({addcarts,carts}) => {
   const productcart=[
     {
