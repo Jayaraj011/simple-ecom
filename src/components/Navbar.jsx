@@ -1,9 +1,9 @@
 import Home from "../pages/Home";
-import User from "../pages/user";
+
 import { Link } from "react-router-dom";
 
  const Navbar = () => {
-  // const currentuser=User()
+  
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary data-bs-theme=dark" data-bs-theme="dark" >
@@ -26,9 +26,7 @@ import { Link } from "react-router-dom";
         <li className="nav-item">
           <a className="nav-link active fw-medium" href="/Login">Login</a>
         </li>
-         {/* <li className="nav-item">
-          <a className="nav-link active" href="#">user:{currentuser?.email}</a>
-        </li> */}
+         
       </ul>
     </div>
   </div>
