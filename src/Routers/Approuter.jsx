@@ -1,10 +1,11 @@
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
+
+import { useState } from "react";
 import Home from "../pages/Home";
 import Products from "../pages/product";
 import Cart from "../pages/cart";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
-import { useState } from "react";
 
 
 const Approuter = () => {
