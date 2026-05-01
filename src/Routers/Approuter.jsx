@@ -5,7 +5,7 @@ import Home from "../pages/Home";
 
 import Cart from "../pages/Cart.jsx";
 import Navbar from "../components/Navbar";
-import Product from "../pages/product";
+import Product from "../pages/Product.jsx";
 
 
 const Approuter = () => {
