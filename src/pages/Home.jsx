@@ -5,9 +5,9 @@ import card3 from '../assets/hthetre.jpg'
 import cart4 from '../assets/pen-rbg.png'
 import cart5 from '../assets/costa-del-mar-wingman-sunglasses-in-gold-metal.jpg'
 import cart6 from '../assets/tv.jpg'
-import{Link} from 'react-router-dom'
-import Footer from './Footer.jsx'
-import Banner from './Banner.jsx'
+import{Link} from 'react-router-dom';
+import Footer from './Footer.jsx';
+import Banner from './Banner.jsx';
  const Home = ({addcarts,carts}) => {
   const productcart=[
     {

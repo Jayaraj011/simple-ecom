@@ -18,10 +18,10 @@ import { Link } from "react-router-dom";
           <a className="nav-link active fw-medium"  aria-current="page"  href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active fw-medium"  href="/product">Product</a>
+          <a className="nav-link active fw-medium"  href="/Product">Product</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active fw-medium" href="/cart">Cart</a>
+          <a className="nav-link active fw-medium" href="/Cart">Cart</a>
         </li>
        
          

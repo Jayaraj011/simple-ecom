@@ -1,10 +1,10 @@
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 
 import { useState } from "react";
-import Home from "../pages/Home";
+import Home from "../pages/Home.jsx";
 
 import Cart from "../pages/Cart.jsx";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar.jsx";
 import Product from "../pages/Product.jsx";
 
 
@@ -25,8 +25,8 @@ const removecart = (id) => {
     
     <Routes>
         <Route path="/" element={<Home addcarts={addcarts} carts={carts}/>} />
-        <Route path="/product" element={<Product/>}/>
-        <Route path="/cart" element={<Cart carts={carts} removecart={removecart}/>}/>
+        <Route path="/Product" element={<Product/>}/>
+        <Route path="/Cart" element={<Cart carts={carts} removecart={removecart}/>}/>
        
     </Routes>
    </Router>
