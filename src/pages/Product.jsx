@@ -6,7 +6,7 @@ import Pagination from './Pagination'
 import data from '../product/Data'
 
 
-const Products = () => {
+const Product = () => {
  const[record,setRecord]=useState(4)
  const[page,setPage]=useState(1)
  
@@ -61,4 +61,4 @@ const Products = () => {
   )
 }
 
-export default Products;
+export default Product;

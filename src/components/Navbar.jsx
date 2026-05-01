@@ -23,9 +23,7 @@ import { Link } from "react-router-dom";
         <li className="nav-item">
           <a className="nav-link active fw-medium" href="/cart">Cart</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link active fw-medium" href="/Login">Login</a>
-        </li>
+       
          
       </ul>
     </div>
