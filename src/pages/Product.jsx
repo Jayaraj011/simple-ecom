@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 import { Link } from 'react-router-dom'
 import Pagination from './Pagination'
-import data from '../product/Data'
+import data from '../Product/Data.jsx'
 
 
 const Product = () => {
