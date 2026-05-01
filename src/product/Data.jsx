@@ -18,7 +18,7 @@ import mobile1 from '../assets/mobiles/mobile1.webp'
 import mobile2 from '../assets/mobiles/mobile2.jpg'
 import mobile3 from '../assets/mobiles/mobile3.webp'
 import mobile4 from '../assets/mobiles/mobile4.webp'
-const data=[
+const Data=[
     { id: 1, image: shirt1, title: "T-Shirt", price: 250 },
     { id: 2, image: shirt2, title: "T-Shirt", price: 250 },
     { id: 3, image: shirt3, title: "T-Shirt", price: 300 },
@@ -39,4 +39,4 @@ const data=[
        { id: 15, image:mobile3, title: "Intex", price: 300},
        { id: 16, image:mobile4, title: "Max", price: 350 }
 ]
-export default data;
+export default Data;

@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 import { Link } from 'react-router-dom'
 import Pagination from './Pagination'
-import data from '../Product/Data.jsx'
+import Data from '../Product/Data'
 
 
 const Product = () => {
@@ -13,7 +13,7 @@ const Product = () => {
  
  const lr=record*page  //4*1=4
  const fr=lr-record   //4-4=0
- const mydata=data.slice(fr,lr)
+ const mydata=Data.slice(fr,lr)
  const changepage=(p)=>{
     setPage(p)
  }
@@ -52,7 +52,7 @@ const Product = () => {
 
           </div>
         ))}
-       <Pagination record={record} total={data.length} changepage={changepage}/>
+       <Pagination record={record} total={Data.length} changepage={changepage}/>
       </div>
 
     
